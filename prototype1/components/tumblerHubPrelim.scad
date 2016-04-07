@@ -7,7 +7,7 @@ $fs = 0.5;
 difference(){
 
 	union(){
-	
+		$fa=1;
 		cylinder(h=2, r=hubRadius);
 	
 		translate(v=[0,0,2]){
